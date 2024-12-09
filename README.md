@@ -1,5 +1,5 @@
 # 一、一条mysql查询语句是如何执行的？
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/05c7cb9c-e2b0-4969-a731-18fdd6b45b36)
 ## 1、连接器
 （1）与客户端TCP握手后，建立连接，读取用户名密码，在权限表里查询权限
 （2）连接成功后没有后续动作，那么连接处于空闲状态，如果客户端太长时间没动静，那么连接器会自动断开，默认八小时
